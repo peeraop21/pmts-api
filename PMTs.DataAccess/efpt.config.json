@@ -1,0 +1,494 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "PMTsDbContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": ".\/",
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "PMTs.DataAccess",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[Additive]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Allowance_Hard]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Allowance_Process]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AttachFileMO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AutoPackingConfig]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AutoPackingCustomer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[AutoPackingSpec]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Board_Alternative]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Board_Combind_DummyCode]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Board_Combine]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Board_Combine_Acc]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Board_Use]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BoardSpec]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Bom_Struct]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Build_Remark]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ChangeHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Coating]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Color]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyProfile]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ConfigWordingReport]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Cor_Config]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Cust_Ship_to]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Customer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CustomerSKIC]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentS]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentSList]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EOrdering_Log]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Flute]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FluteLayer]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FluteTR]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Hierarchy_Lv2_Matrix]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HierarchyLV3]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HierarchyLV4]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HireMapping]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HireOrder]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HoldMaterial]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HoldMaterialHistory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HoneyPaper]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[HvaMaster]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[InfoRecordSourceList]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[InterfaceSystemAPI]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[JoinCharacter]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Joint]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[KindOfProduct]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[KindOfProductGroup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[LogPrintMO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Machine]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MachineFluteTrim]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MachineGroup]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MainMenus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Map_Cost]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MappingPG]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MasterData]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MasterRole]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MasterUser]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MaterialType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MenuRole]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MO_Board_Alternative]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MO_Board_Use]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MO_BOM_RawMat]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MO_DATA]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MO_DATALog]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MO_Routing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MO_Spec]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[MO_Temp]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Pallet]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PaperGrade]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PaperGradeCodeMachine]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PaperWidth]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Plant_View]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PlantCostField]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PMTsConfig]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PPC_BOI_Status]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PPC_FSC_CODE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PPC_FSC_FG_CODE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PPC_Master_Rpac]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PPC_Production_Printing_Process]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PPC_Production_Process]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PPC_Raw_Material_Master]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PPC_Raw_Material_Production_BOM]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PPC_WORK_TYPE]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PresaleChangeProduct]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PresaleChangeRouting]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PricingMaster]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PricingMaster_Scale]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Print_Method]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProcessCost]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Product_Group]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductCatalogConfig]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductionType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ProductType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QA_Alert]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QA_Alert_Temp]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QA_Items]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QualitySpec]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Remark]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Routing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Routing2pc]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Running_No]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Sales_View]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SB_Routing]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Score_Gap]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Score_Type]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SendEmail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SetCategoriesOldMat]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[StandardPatternName]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SubMenurole]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SubMenus]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TagPrintSO]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Transactions_Detail]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TruckOptimize]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UnitMaterial]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UpdateDuedateAndOrderQtyByDWToMoData]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "vpkgbppmts01.PMTsTest.dbo",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

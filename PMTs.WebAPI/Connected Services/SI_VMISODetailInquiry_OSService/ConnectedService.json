@@ -1,0 +1,24 @@
+﻿{
+  "ProviderId": "Microsoft.VisualStudio.ConnectedService.Wcf",
+  "Version": "15.0.20628.921",
+  "ExtendedData": {
+    "Uri": "C:\\Users\\yutthsee\\Downloads\\Deliverables\\Sales Order Get Details\\SI_VMISODetailInquiry_OSService.wsdl",
+    "Namespace": "SI_VMISODetailInquiry_OSService",
+    "SelectedAccessLevelForGeneratedClass": "Public",
+    "GenerateMessageContract": false,
+    "ReuseTypesinReferencedAssemblies": true,
+    "ReuseTypesinAllReferencedAssemblies": true,
+    "CollectionTypeReference": {
+      "Item1": "System.Array",
+      "Item2": "System.Runtime.dll"
+    },
+    "DictionaryCollectionTypeReference": {
+      "Item1": "System.Collections.Generic.Dictionary`2",
+      "Item2": "System.Collections.dll"
+    },
+    "CheckedReferencedAssemblies": [],
+    "InstanceId": null,
+    "Name": "SI_VMISODetailInquiry_OSService",
+    "Metadata": {}
+  }
+}

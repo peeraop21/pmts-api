@@ -1,0 +1,1 @@
+Scaffold-DbContext "Server=10.28.58.90;Database=PMTsDev;User Id=sa;Password=!qaz2wsx;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models -Context "PMTsDbContext" -force
